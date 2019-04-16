@@ -37,10 +37,9 @@ def self.drop_table
 end
 
 def self.create(name:, grade:)
-  song = Song.new(name, album)
-  song.save
-  song
-end
+  student = student.new(name, grade)
+  student.save
+  student
 end
 
 end
